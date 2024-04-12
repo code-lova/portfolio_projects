@@ -12,15 +12,29 @@ body{
     font-family:var(--paragraph-font);
     margin: 0;
     color: var(--paragraph-color);
+    background-color: var(--other-color);
 }
 
-header{
+
+header {
     display: flex;
     justify-content: space-between;
     align-items: center;
-    height: 60px;
-    padding-right: 20px;
+    height: 100px;
+
+    position: fixed; /* Initially fixed */
+    top: 0;
+    width: 100%;
+    z-index: 1000;
+    background-color: var(--other-color); /* Optional: Add background color if needed */
+    transition: all 0.3s; /* Add smooth transition for effect */
 }
+
+/* Add a class to the header when scrolling down */
+header.scrolled {
+    position: sticky; /* Change to sticky after scrolling */
+}
+
 
 header button{
     align-items: center;
@@ -31,10 +45,9 @@ header button{
     font-size: 15px;
     border: 1px solid #000;
     cursor: pointer;
-    margin-left: auto;
     font-weight: 900;
     letter-spacing: 1px;
-    margin-top: 30px;
+    margin-top: 10px;
 }
 
 #computer{
@@ -43,7 +56,7 @@ header button{
 
 .logo{
     width: 160px;
-    margin-top: 30px;
+    margin-top: 10px;
     height: auto;
 }
 
@@ -51,6 +64,11 @@ header button{
 
 
 /* MAIN CONTEENT */
+
+
+main{
+    margin-top: 90px;
+}
 
 .card-1{
 
