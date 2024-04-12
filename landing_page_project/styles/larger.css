@@ -1,0 +1,52 @@
+@media screen  and (min-width: 1280px){
+    
+
+    #mobile{
+        display: none;
+    }
+
+    #computer{
+        display: block;
+    }
+
+    header button{
+        align-items: center;
+        background-color: var(--button-color);
+        color: #fff;
+        padding: 11px;
+        border-radius: 30px;
+        font-size: 15px;
+        border: none;
+        cursor: pointer;
+        margin-left: auto;
+    }
+
+
+    .parent{
+        display: grid;
+        grid-template-columns: 1fr 1fr;
+    }
+
+    .card-1 h1{
+        font-size: 60px;
+        font-family: var(--title-font-family-large-screen);
+        font-weight: 900;
+        font-style:normal;
+        margin-top: 0.5rem;
+        max-width: 720px;
+        line-height: 95%;
+    }
+
+    
+    .card-2{
+
+        background:none;
+
+    }
+
+    .img-wrapper2 img{
+        margin-top: 30px;
+    }
+
+    
+}
