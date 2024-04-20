@@ -1,4 +1,4 @@
-# Essential Stuff
+# Essential varables
 
 ## Html import links
 

@@ -1,12 +1,12 @@
 Nextflix
 
-Tvflix is a popular movie app made by codewithsadee.
+Nextflix is a popular movie app made by code-lova.
 
 
 
 #---------- HEADER ----------#
 
-alt = Tvflix home
+alt = Nextflix home
 
 aria-label = search movies
 placeholder = Search any movies...
@@ -39,8 +39,8 @@ English
 Hindi
 Bengali
 
-Copyright 2023
-href = https://youtube.com/@codewithsadee
+Copyright 2024
+href = https://youtube.com/@delacliqueentertainment4456
 codewithsadee
 
 alt = the movie database logo
