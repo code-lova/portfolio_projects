@@ -1,0 +1,83 @@
+<!-- email_template.html -->
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Email Template</title>
+    <style>
+        /* Add CSS styles for the header, content, and footer */
+        body {
+            margin: 0;
+            padding: 0;
+            font-family: Arial, sans-serif;
+            background-color: #f4f4f4;
+        }
+
+        .container {
+            max-width: 600px;
+            margin: 0 auto;
+            background-color: #ffffff;
+            border-radius: 10px;
+            padding: 20px;
+        }
+
+        .header {
+            background-color: #cf1f1f;
+            color: #ffffff;
+            padding: 20px;
+            text-align: center;
+            border-top-left-radius: 10px;
+            border-top-right-radius: 10px;
+        }
+
+        .footer {
+            background-color: #f0f0f0;
+            color: #cf1f1f;
+            padding: 10px 20px;
+            text-align: center;
+            border-bottom-left-radius: 10px;
+            border-bottom-right-radius: 10px;
+        }
+
+        .content {
+            padding: 20px;
+        }
+
+        h1 {
+            color: #fafafa;
+        }
+        p {
+            color: #666;
+        }
+        a {
+            text-decoration: none;
+        }
+    </style>
+</head>
+<body>
+    <div class="container">
+
+         <!-- Header -->
+         <div class="header">
+            <h1>ChefChi - Email Verification</h1>
+        </div>
+
+        <!-- Content -->
+        <div class="content">
+            <p>Dear <strong>{{RECIPIENT_NAME}}</strong></p>
+            <p>This is your OTP (One Time Password) verification code. Will expire in 2mins</p>
+            <p>
+               <b>{{OTP}}</b> 
+            </p>
+            <p>Team ChefChi</p>
+        </div>
+
+        <!-- Footer -->
+        <div class="footer">
+            <p>&copy;2024 ChefChi. All Rights Reserved.</p>
+        </div>
+
+    </div>
+</body>
+</html>
